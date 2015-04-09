@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150301052544) do
+ActiveRecord::Schema.define(version: 20150408052544) do
 
   create_table "addresses", force: true do |t|
     t.string  "street"
@@ -170,6 +170,7 @@ ActiveRecord::Schema.define(version: 20150301052544) do
     t.string   "city_of_birth"
     t.string   "driver_license_number"
     t.string   "driver_license_state"
+    t.string   "driver_licence_expiration"
     t.string   "ethnicity"
   end
 
